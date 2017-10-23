@@ -1,0 +1,7 @@
+ti_exchange:
+    resource: "@TIExchangeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
