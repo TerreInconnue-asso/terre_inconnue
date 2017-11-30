@@ -1,3 +1,4 @@
 ti_exchange_homepage:
-    path:     /hello
-    defaults: { _controller: TIExchangeBundle:Advert:index }
+    path:     /home
+    defaults:
+        _controller: TIExchangeBundle:Home:index
